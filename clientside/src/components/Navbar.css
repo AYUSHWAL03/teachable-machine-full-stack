@@ -1,0 +1,28 @@
+/* Navbar styling */
+.navbar {
+    background-color: #89cff3; /* Background color */
+    overflow: hidden;
+    height: 3rem;
+    font-family: 'Nunito', sans-serif;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    font-size: 1.1rem;
+    display: block;
+    color: #ffffff; /* Text color */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Change background color of links on hover */
+.navbar a:hover {
+    background-color: #63b8ea;
+}
